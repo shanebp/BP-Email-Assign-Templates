@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: bp-email-templates\n"
+"POT-Creation-Date: 2016-03-17 13:24-0800\n"
+"PO-Revision-Date: 2016-03-17 13:25-0800\n"
+"Last-Translator: \n"
+"Language-Team: PhiloPress\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;_n:1,2;_x:1,2c;_\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../loader.php:97
+msgid ""
+"<strong>BP Email Templates</strong></a> requires the BuddyPress plugin. "
+"Please <a href=\"http://buddypress.org/download\">install BuddyPress</a> "
+"first, or <a href=\"plugins.php\">deactivate BP Email Templates</a>."
+msgstr ""
+
+#: ../pp-email-templates-admin-metabox.php:9
+msgid "Email Template"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:32
+msgid ""
+"On this screen, you can create, edit or delete an email template option."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:33
+msgid "The Option Name can be anything but should be unique."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:36
+msgid "Option Name"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:41
+msgid ""
+"The file name needs to end with \".php\" and must be a file that exists in "
+"your active theme."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:42
+msgid ""
+"If you want email templates to live in a separate directory in your theme, "
+"then include the path as part of the file name. For example \"/bp-email-"
+"templates/bp-email-for-friends.php\""
+msgstr ""
+
+#: ../pp-email-templates-admin.php:45
+msgid "Option File"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:50
+msgid "BuddyPress includes a <em>single</em> default email template."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:51
+msgid "More Info"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:52
+msgid ""
+"But what if you want multiple and assignable templates? Or have a template "
+"that does not use the customizer settings?"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:53
+msgid ""
+"If so, create a copy of the default email template, rename it and adjust as "
+"necessary. You can change the layout, include images, remove the customizer "
+"setting calls, etc."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:54
+msgid ""
+"[ The customizer settings <em>will apply to all templates</em> that call the "
+"customizer settings. ]"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:55
+msgid ""
+"Then upload the new template to your active theme directory and create an "
+"option here."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:56
+msgid ""
+"Your new option will be available for selection on the Email create and edit "
+"screens in the lower right area."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:59
+msgid "Create a Template"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:102
+msgid "Update Template Option"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:107
+msgid "The Template Option was not found."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:140
+msgid "Template Option was Updated"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:142
+msgid "There was a problem Updating that Template Option."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:149 ../pp-email-templates-admin.php:231
+msgid "Please fill out both fields."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:176
+msgid "The file must already exist in your active theme directory."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:181
+msgid "Create Template Option"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:219
+msgid "Template Option was created."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:222
+msgid "There was a problem creating that Template Option."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:244
+msgid "The file name must end with .php"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:254
+#, php-format
+msgid "The file %s was not found in your active theme."
+msgstr ""
+
+#: ../pp-email-templates-admin.php:267
+msgid "BuddyPress Email Assign Templates"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:343
+msgid "Name"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:344
+msgid "File"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:438
+msgid "Edit"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:441
+msgid "Delete"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:508
+msgid "Title"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:509
+msgid "Template"
+msgstr ""
+
+#: ../pp-email-templates-admin.php:510
+msgid "Date"
+msgstr ""
