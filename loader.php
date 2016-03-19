@@ -2,7 +2,7 @@
 /*
 Plugin Name: BP Email Assign Templates
 Description: Assign Templates to BuddyPress Emails
-Version: 1.0
+Version: 1.1
 Author: shanebp
 Author URI: http://philopress.com/
 Text Domain: bp-email-templates
@@ -103,6 +103,17 @@ function pp_etemplates_install_buddypress_notice() {
 // filter the template used by bp_mail if a specific template has been assigned
 function pp_etemplates_template( $templates, $obj )  {
 
+	/**
+	 * Sometimes the WP_Post $obj is not set 
+	 * For example: in the members-loop, on a Friendship request
+	 * resulting in 'Notice: Trying to get property of non-object...'
+	 * And yet the email is sent!?  Is this filter being called elsewhere?
+	 * This behaviour is inconsistent - sometimes the same action does not throw a Notice
+	 * For now, make sure $obj is an object
+	 */
+	if ( !is_object( $obj ) ) 
+		return $templates;
+		
 	$value = get_post_meta( $obj->ID, 'bp-etemplate', true );
 
     if ( empty( $value ) || $value == 'bp-email-template-0' ) {

@@ -8,10 +8,10 @@ Requires at least: WP 4.0
 Text Domain: bp-email-templates
 Domain Path: /languages
 Tested up to: WP 4.4.2
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 
-A plugin for BuddyPress
+A plugin for use with the BuddyPress Email API
 
 == Description ==
 
@@ -34,7 +34,7 @@ For more info on BuddyPress Emails, visit: https://codex.buddypress.org/emails/
 
 For more info on this plugin, visit: http://www.philopress.com/products/bp-email-assign-templates/
 
-For more BuddyPress plugins, please visit: http://www.philopress.com/
+For more BuddyPress plugins, visit: http://www.philopress.com/
 
 
 == Installation ==
@@ -53,6 +53,10 @@ None yet.
 
 == Upgrade Notice ==
 
+
+= 1.1 =
+* Adds a check re whether the WP_Post object was set
+
 = 1.0 =
 No need to upgrade yet.
 
@@ -63,6 +67,9 @@ No need to upgrade yet.
 
 
 == Changelog ==
+
+= 1.1 =
+* add check re WP_Post object. See note in loader.php > function pp_etemplates_template
 
 = 1.0 =
 * Initial release.
