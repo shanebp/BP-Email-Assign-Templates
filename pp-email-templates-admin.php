@@ -499,12 +499,7 @@ function pp_etemplates_scripts() {
 // add Template Name column
 function pp_etemplates_add_custom_column( $columns ){
 
-	unset($columns['title']);
-	unset($columns['date']);
-
-    $columns['title']       = __( 'Title', 'buddypress' );
     $columns['etemplate']   = __( 'Template', 'bp-email-templates' );
-    $columns['date']        = __( 'Date', 'bp-email-templates' );
 
     return $columns;
 }
@@ -526,14 +521,18 @@ function pp_etemplates_add_custom_column_data( $column, $post_id ){
 				// option does not exist, so get rid of post_meta and use default template
 				delete_post_meta( $post_id, 'bp-etemplate' );
 
-				echo 'Default Template';
+				echo 'Default';
 
 			}
-			else
-				echo $option['oname'];
+			else {
+				if ( $option['oname'] == 'Default Template' )
+					echo 'Default';
+				else
+					echo $option['oname'];
+			}
         }
 		else
-			echo 'Default Template';
+			echo 'Default';
     }
 }
 add_action( 'manage_' . bp_get_email_post_type() . '_posts_custom_column', 'pp_etemplates_add_custom_column_data', 10, 2 );
