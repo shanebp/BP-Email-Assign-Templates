@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name: BP Email Assign Templates
-Description: Assign Templates to BuddyPress Emails
-Version: 1.1
-Author: shanebp
-Author URI: http://philopress.com/
-Text Domain: bp-email-templates
-Domain Path: /languages
-License: GPLv2 or later
+ * Plugin Name: BP Email Assign Templates
+ * Description: Assign Templates to BuddyPress Emails
+ * Version: 1.2
+ * Author: PhiloPress
+ * Author URI: https://www.philopress.com/
+ * Text Domain: bp-email-templates
+ * Domain Path: /languages
+ * License: GPLv2 or later
 */
 
 if ( !defined( 'ABSPATH' ) ) exit;

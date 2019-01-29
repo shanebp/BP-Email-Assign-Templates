@@ -1,14 +1,14 @@
 === BP Email Assign Templates ===
 Contributors: shanebp
-Donate link: http://www.philopress.com/donate/
+Donate link: https://www.philopress.com/donate/
 Tags: buddypress, email, templates
-Author URI: http://philopress.com/contact/
-Plugin URI: http://philopress.com/products/
+Author URI: https://philopress.com
+Plugin URI: https://philopress.com
 Requires at least: WP 4.0
 Text Domain: bp-email-templates
 Domain Path: /languages
-Tested up to: WP 4.4.2
-Stable tag: 1.1
+Tested up to: 5.0
+Stable tag: 1.2
 License: GPLv2 or later
 
 A plugin for use with the BuddyPress Email API
@@ -30,11 +30,10 @@ It does NOT include:
 * an interface for creating templates
 
 
-For more info on BuddyPress Emails, visit: https://codex.buddypress.org/emails/
+For more info on BuddyPress Emails, visit: [https://codex.buddypress.org/emails/](https://codex.buddypress.org/emails/) 
+For more info on this plugin, visit: [https://www.philopress.com/products/bp-email-assign-templates/](https://www.philopress.com/products/bp-email-assign-templates/) 
 
-For more info on this plugin, visit: http://www.philopress.com/products/bp-email-assign-templates/
-
-For more BuddyPress plugins, visit: http://www.philopress.com/
+For more BuddyPress plugins, visit: [https://www.philopress.com/](https://www.philopress.com/) 
 
 
 == Installation ==

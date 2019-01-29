@@ -41,14 +41,14 @@ function pp_etemplates_template_metabox( $obj ) {
 				$checked = ' checked';
 
 			if ( ! empty ( $template_exists ) ) {
-				echo '<li class="popular-category"><label class="selectit"><input value="' . $item->option_name . '" type="radio" name="bp-etemplates" ' . $checked .'>' .  $item_data['oname'] . '</label></li>';
+				echo '<br><li class="popular-category"><label class="selectit"><input value="' . $item->option_name . '" type="radio" name="bp-etemplates" ' . $checked .'>' .  $item_data['oname'] . '</label></li>';
 			}
 			elseif ( $item->option_name == 'bp-email-template-0' ) {
-				echo '<li class="popular-category"><label class="selectit"><input value="bp-email-template-0" type="radio" name="bp-etemplates" checked>Default Template</label></li>';
+				echo '<br><li class="popular-category"><label class="selectit"><input value="bp-email-template-0" type="radio" name="bp-etemplates" checked>Default Template</label></li>';
 			}
 		}
 
-		echo '</ul></div></div>';
+		echo '</ul><br></div></div>';
 	}
 }
 

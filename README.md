@@ -1,4 +1,7 @@
 # BP-Email-Assign-Templates
+
+Version 1.2
+
 This BuddyPress plugin allows site administrators to assign template options to individual BuddyPress Emails
 
 The screen located at Emails > Templates
