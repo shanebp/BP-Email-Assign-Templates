@@ -14,7 +14,7 @@ add_action( 'add_meta_boxes_' . bp_get_email_post_type(), 'pp_etemplates_custom_
 function pp_etemplates_template_metabox( $obj ) {
 	global $wpdb;
 
-	$query = "SELECT * FROM {$wpdb->prefix}options WHERE option_name LIKE 'bp-email-template-_' ORDER BY option_id ASC ";
+	$query = "SELECT * FROM {$wpdb->prefix}options WHERE option_name LIKE 'bp-email-template-%' ORDER BY option_id ASC ";
 
 	$items = $wpdb->get_results( $query );
 

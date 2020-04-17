@@ -7,8 +7,8 @@ Plugin URI: https://philopress.com
 Requires at least: WP 4.0
 Text Domain: bp-email-templates
 Domain Path: /languages
-Tested up to: 5.0
-Stable tag: 1.2
+Tested up to: 5.4
+Stable tag: 1.3
 License: GPLv2 or later
 
 A plugin for use with the BuddyPress Email API
@@ -30,10 +30,10 @@ It does NOT include:
 * an interface for creating templates
 
 
-For more info on BuddyPress Emails, visit: [https://codex.buddypress.org/emails/](https://codex.buddypress.org/emails/) 
-For more info on this plugin, visit: [https://www.philopress.com/products/bp-email-assign-templates/](https://www.philopress.com/products/bp-email-assign-templates/) 
+For more info on BuddyPress Emails, visit: [https://codex.buddypress.org/emails/](https://codex.buddypress.org/emails/)
+For more info on this plugin, visit: [https://www.philopress.com/products/bp-email-assign-templates/](https://www.philopress.com/products/bp-email-assign-templates/)
 
-For more BuddyPress plugins, visit: [https://www.philopress.com/](https://www.philopress.com/) 
+For more BuddyPress plugins, visit: [https://www.philopress.com/](https://www.philopress.com/)
 
 
 == Installation ==
@@ -44,6 +44,7 @@ For more BuddyPress plugins, visit: [https://www.philopress.com/](https://www.ph
 
 3. Go to Emails > Templates
 
+4. See the HELP tab for more info
 
 
 == Frequently Asked Questions ==
@@ -52,6 +53,9 @@ None yet.
 
 == Upgrade Notice ==
 
+= 1.3 =
+* tested with WP 5.4
+* fixes bug re Template listings, now uses the proper wildcard
 
 = 1.1 =
 * Adds a check re whether the WP_Post object was set
@@ -66,6 +70,10 @@ No need to upgrade yet.
 
 
 == Changelog ==
+
+= 1.3 =
+* tested with WP 5.4
+* fixes bug re Template listings, now uses the proper wildcard
 
 = 1.1 =
 * add check re WP_Post object. See note in loader.php > function pp_etemplates_template

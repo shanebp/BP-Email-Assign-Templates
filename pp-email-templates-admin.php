@@ -211,7 +211,9 @@ function pp_etemplates_create_option() {
 						'fname' => $_POST['eto-file-name'],
 					);
 
-				$new_option = add_option( $option_name, $option_value, NULL, false );
+				$new_option = add_option( $option_name, $option_value, '', false );
+
+				write_log( $new_option );
 
 				if ( $new_option ) {
 					update_option( 'bp_email_templates_count', $count, false );
@@ -383,7 +385,7 @@ function pp_etemplates_admin_list() {
 
 			$this->process_bulk_action();
 
-			$query = "SELECT * FROM {$wpdb->prefix}options WHERE option_name LIKE 'bp-email-template-_' ORDER BY option_id DESC ";
+			$query = "SELECT * FROM {$wpdb->prefix}options WHERE option_name LIKE 'bp-email-template-%' ORDER BY option_id DESC ";
 
 			$columns = $this->get_columns();
 			$hidden = array();
